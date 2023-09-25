@@ -1,7 +1,25 @@
-// Descrição: Crie um programa Java que permita ao usuário criar uma lista de tarefas. O programa deve permitir adicionar tarefas à lista, remover tarefas e exibir todas as tarefas na lista. Use um ArrayList para armazenar as tarefas. Tarefa deve ser uma classe do seu código com os atributos: titulo, data e descrição e métodos que você julgue necessários.
-
+// lista de tarefas
 public class exercicio03 {
-    public static void main(String[] args) {
+    private String titulo;
+    private String data;
+    private String descricao;
 
+    public exercicio03(String titulo, String data, String descricao) {
+        this.titulo = titulo;
+        this.data = data;
+        this.descricao = descricao;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public String getDescricao() {
+        return descricao;
     }
 }
+
