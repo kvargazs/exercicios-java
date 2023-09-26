@@ -8,6 +8,6 @@ class Circulo extends FormaGeometrica {
 
     @Override
     public double calcularArea() {
-        return Math.PI * raio * raio;
+        return Math.PI * raio * raio; //calculo da área de um círculo
     }
 }

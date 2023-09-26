@@ -7,7 +7,7 @@ public class ListaDeTarefas {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {  //inicia um loop infinito para permitir a interação contínua do usuário
-            System.out.println("Escolha uma opção:");  //menu de opções
+            System.out.println("Escolha uma opção: \n");  //menu de opções
             System.out.println("1 - Adicionar tarefa");
             System.out.println("2 - Remover tarefa");
             System.out.println("3 - Exibir todas as tarefas");
