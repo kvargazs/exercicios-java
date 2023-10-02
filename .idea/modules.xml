@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Aula 04/Aula 04.iml" filepath="$PROJECT_DIR$/Aula 04/Aula 04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Aula 05/Aula 05.iml" filepath="$PROJECT_DIR$/Aula 05/Aula 05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula01/Aula01.iml" filepath="$PROJECT_DIR$/Aula01/Aula01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/Aula02.iml" filepath="$PROJECT_DIR$/Aula02/Aula02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/Aula03.iml" filepath="$PROJECT_DIR$/Aula03/Aula03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/Aula04.iml" filepath="$PROJECT_DIR$/Aula04/Aula04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/Aula05.iml" filepath="$PROJECT_DIR$/Aula05/Aula05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula06/Aula06.iml" filepath="$PROJECT_DIR$/Aula06/Aula06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula07/Aula07.iml" filepath="$PROJECT_DIR$/Aula07/Aula07.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/exercicios-java.iml" filepath="$PROJECT_DIR$/.idea/exercicios-java.iml" />
     </modules>
   </component>
