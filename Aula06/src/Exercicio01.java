@@ -35,7 +35,7 @@ public class Exercicio01 {
                 System.out.println("Número de livro inválido. Digite 0 para sair ou o número do livro a ser removido.");
             }
         }
-        //verifique se a pilha está vazia
+        //verifica se a pilha está vazia
         if (pilhaDeLivros.isEmpty() || sair) {
             System.out.println("\nA pilha de livros está vazia ou o usuário escolheu sair.");
         } else {
