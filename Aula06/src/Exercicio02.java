@@ -3,10 +3,8 @@ import java.util.Map;
 
 public class Exercicio02 {
     public static void main(String[] args) {
-        // Criar um HashMap para associar nomes a idades
         Map<String, Integer> mapaDeIdades = new HashMap<>();
 
-        // Inserir algumas entradas no mapa
         mapaDeIdades.put("Karol",18);
         mapaDeIdades.put("João", 20);
         mapaDeIdades.put("Lucas", 46);
