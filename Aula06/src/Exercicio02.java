@@ -5,7 +5,7 @@ public class Exercicio02 {
     public static void main(String[] args) {
         Map<String, Integer> mapaDeIdades = new HashMap<>();
 
-        mapaDeIdades.put("Karol",18);
+        mapaDeIdades.put("Karol", 18);
         mapaDeIdades.put("João", 20);
         mapaDeIdades.put("Lucas", 46);
         mapaDeIdades.put("Maria", 39);
