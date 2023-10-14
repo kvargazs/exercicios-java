@@ -1,8 +1,8 @@
 class Contatos {
-    private String telefone;
-    private String nome;
-    private String endereco;
-    private String local;
+    private final String telefone;
+    private final String nome;
+    private final String endereco;
+    private final String local;
 
     public Contatos(String telefone, String nome, String endereco, String localidade) {
         this.telefone = telefone;
@@ -11,16 +11,8 @@ class Contatos {
         this.local = localidade;
     }
 
-    public String getTelefone() {
-        return telefone;
-    }
-
     public String getNome() {
         return nome;
-    }
-
-    public String getEndereco() {
-        return endereco;
     }
 
     public String getLocal() {
