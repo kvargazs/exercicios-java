@@ -11,12 +11,10 @@ public class Exercicio05 {
             System.err.println("Erro: " + e.getMessage());
         }
     }
-
     public static int lerIdade() {
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
-
     public static void validarIdade(int idade) {
         if (idade < 0 || idade > 150) {
             throw new IdadeInvalidaException("Idade inválida! A idade deve ser entre 0 e 150 anos.");
