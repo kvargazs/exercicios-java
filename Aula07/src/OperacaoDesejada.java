@@ -1,3 +1,3 @@
 public enum OperacaoDesejada {
-    ADICAO, SUBTRACAO, MULTIPLICACAO, DIVISAO
+    ADICAO, SUBTRACAO, MULTIPLICACAO, OperacaoDesejada, DIVISAO
 }
