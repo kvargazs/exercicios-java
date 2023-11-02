@@ -1,0 +1,4 @@
+interface Desenhavel {
+    void desenhar();
+}
+
