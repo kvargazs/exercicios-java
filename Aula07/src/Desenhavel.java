@@ -1,4 +1,4 @@
-interface Desenhavel {
+public interface Desenhavel {
     void desenhar();
 }
 
