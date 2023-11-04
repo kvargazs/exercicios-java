@@ -9,7 +9,6 @@ public class Exercicio02 {
 
         try {
             DiaDaSemana dia = DiaDaSemana.valueOf(entradaUsuario);
-
             switch (dia) {
                 case SEGUNDA:
                 case TERCA:

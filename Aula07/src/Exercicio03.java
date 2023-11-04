@@ -12,7 +12,6 @@ public class Exercicio03 {
             int numero2 = scanner.nextInt();
 
             System.out.println("Números digitados: " + numero1 + " e " + numero2);
-
         } catch (InputMismatchException e) {
             System.err.println("Números inválidos! Você inseriu números inteiros.");
         }
