@@ -22,7 +22,7 @@ public class Exercicio02 {
         // filtra os produtos com quantidade maior que 10 e cria uma lista nova
         List<Produto> produtosComQuantidadeMaiorQue10 = produtos.stream()
                 .filter(p -> p.getQuantidade() > 10)
-                .collect(Collectors.toList());
+                .toList();
         //System.out.println("Produtos com quantidade > 10: " + produtosComQuantidadeMaiorQue10);
 
         // imprime os nomes dos produtos da nova lista
