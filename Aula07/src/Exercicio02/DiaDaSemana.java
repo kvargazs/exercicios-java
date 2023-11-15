@@ -1,5 +1,0 @@
-package Exercicio02;
-
-enum DiaDaSemana {
-    SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO
-}
