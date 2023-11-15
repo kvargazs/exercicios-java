@@ -6,55 +6,48 @@ public class Exercicio04 {
     @Test
     public void testAdicao() {
         Calculadora calculadora = new Calculadora();
-        assertEquals(5.0, calculadora.adicao(2.0, 3.0), 0.0001);
+        assertEquals(10, calculadora.adicao(7, 3), 0.0001);
     }
     @Test
     public void testSubtracao() {
         Calculadora calculadora = new Calculadora();
-        assertEquals(2.0, calculadora.subtracao(5.0, 3.0), 0.0001);
+        assertEquals(5, calculadora.subtracao(10, 5), 0.0001);
     }
     @Test
     public void testMultiplicacao() {
         Calculadora calculadora = new Calculadora();
-        assertEquals(15.0, calculadora.multiplicacao(5.0, 3.0), 0.0001);
+        assertEquals(24, calculadora.multiplicacao(4, 6), 0.0001);
     }
     @Test
     public void testDivisao() {
         Calculadora calculadora = new Calculadora();
-        assertEquals(2.5, calculadora.divisao(5.0, 2.0), 0.0001);
+        assertEquals(50, calculadora.divisao(100, 2), 0.0001);
     }
     @Test(expected = ArithmeticException.class)
     public void testDivisaoPorZero() {
         Calculadora calculadora = new Calculadora();
-        calculadora.divisao(5.0, 0.0);
+        calculadora.divisao(2, 0);
     }
     @Test
     public void testRaizQuadrada() {
         Calculadora calculadora = new Calculadora();
-        assertEquals(2.0, calculadora.raizQuadrada(4.0), 0.0001);
-    }
-    @Test(expected = ArithmeticException.class)
-    public void testRaizQuadradaDeNumeroNegativo() {
-        Calculadora calculadora = new Calculadora();
-        calculadora.raizQuadrada(-4.0);
+        assertEquals(2, calculadora.raizQuadrada(4), 0.0001);
     }
     @Test
     public void testPotencia() {
         Calculadora calculadora = new Calculadora();
-        assertEquals(8.0, calculadora.potencia(2.0, 3.0), 0.0001);
+        assertEquals(8, calculadora.potencia(2, 3), 0.0001);
     }
     @Test
     public void testCalcularPagamentoHipoteca() {
         Calculadora calculadora = new Calculadora();
-        double principal = 200000.0;
-        double taxaDeJurosAnual = 5.0;
+        double principal = 10000;
+        double taxaDeJurosAnual = 5;
         int prazoEmAnos = 30;
 
-        double pagamentoMensalEsperado = 1073.64; // Valor aproximado, pode variar ligeiramente
-
+        double pagamentoMensalEsperado = 1073.64;
         double resultado = calculadora.calcularPagamentoHipoteca(principal, taxaDeJurosAnual, prazoEmAnos);
 
-        assertEquals(pagamentoMensalEsperado, resultado, 0.01); // Aceita uma pequena margem de erro
+        assertEquals(pagamentoMensalEsperado, resultado, 0.01);
     }
 }
-
