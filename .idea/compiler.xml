@@ -12,6 +12,7 @@
     <bytecodeTargetLevel>
       <module name="Aula09" target="17" />
       <module name="Exercicios Maven" target="17" />
+      <module name="untitled" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
