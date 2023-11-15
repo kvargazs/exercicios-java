@@ -1,4 +1,4 @@
-package exercicio01;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Arrays;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class Exercicio01 {
     public static void main(String[] args) {
         List<String> listaDeStrings = Arrays.asList(
-                "CS", "LoL", "RDR2", "TLOU", "FallGuys", "Minecraft", "CS", "RDR2", "CS"
+                "CS", "LoL", "RDR2", "TLOU", "FallGuys", "Minecraft", "CS", "RDR2", "CS", "Minecraft"
         );
         //número total de strings
         long totalDeStrings = listaDeStrings.size();
